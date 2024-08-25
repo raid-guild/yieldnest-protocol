@@ -27,8 +27,8 @@ contract YnEigenScript is YnEigenDeployer, YnEigenVerifier {
         }
         console.log("\n");
 
-        // TODO: remove this after testing
-        actors.eoa.DEFAULT_SIGNER = _deployer;
+        // add this to test with any account
+        // actors.eoa.DEFAULT_SIGNER = _deployer;
         _deploy();
         _verify();
     }
