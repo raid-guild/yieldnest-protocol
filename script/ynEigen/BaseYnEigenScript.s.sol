@@ -10,7 +10,6 @@ import {TokenStakingNode} from "src/ynEIGEN/TokenStakingNode.sol";
 import {ynEigenDepositAdapter} from "src/ynEIGEN/ynEigenDepositAdapter.sol";
 import {IRateProvider} from "src/interfaces/IRateProvider.sol";
 import {TimelockController} from "@openzeppelin/contracts/governance/TimelockController.sol";
-
 import {ActorAddresses} from "script/Actors.sol";
 import {ContractAddresses} from "script/ContractAddresses.sol";
 import {BaseScript} from "script/BaseScript.s.sol";
